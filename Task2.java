@@ -20,7 +20,7 @@ public class NumberGame {
             boolean guessedCorrectly = false;
 
             System.out.println("\n===== ROUND " + round + " =====");
-            System.out.println("Guess a number between 1 and 100");
+            System.out.println("Guess a number between 1 and 100 now start the game");
             System.out.println("You have only 5 attempts.");
 
             while (attempts > 0) {
@@ -47,7 +47,7 @@ public class NumberGame {
             }
 
             if (!guessedCorrectly) {
-                System.out.println("You lost! The correct number was: " + number);
+                System.out.println("You lost the game better luck next time! The correct number was: " + number);
             }
 
             System.out.println("Current Score: " + score);

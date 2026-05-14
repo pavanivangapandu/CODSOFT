@@ -1,99 +1,5 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
-// Student Class
-class Student {
-
-    int rollNumber;
-    String name;
-    String grade;
-
-    // Constructor
-    Student(int rollNumber, String name, String grade) {
-        this.rollNumber = rollNumber;
-        this.name = name;
-        this.grade = grade;
-    }
-
-    // Display Student Details
-    void displayStudent() {
-        System.out.println("Roll Number : " + rollNumber);
-        System.out.println("Name        : " + name);
-        System.out.println("Grade       : " + grade);
-        System.out.println("---------------------------");
-    }
-}
-
-// Student Management System Class
-class StudentManagementSystem {
-
-    ArrayList<Student> students = new ArrayList<>();
-
-    // Add Student
-    void addStudent(Student student) {
-        students.add(student);
-        System.out.println("Student Added Successfully.");
-    }
-
-    // Remove Student
-    void removeStudent(int rollNumber) {
-
-        boolean found = false;
-
-        for (Student s : students) {
-
-            if (s.rollNumber == rollNumber) {
-                students.remove(s);
-                found = true;
-                System.out.println("Student Removed Successfully.");
-                break;
-            }
-        }
-
-        if (!found) {
-            System.out.println("Student Not Found.");
-        }
-    }
-
-    // Search Student
-    void searchStudent(int rollNumber) {
-
-        boolean found = false;
-
-        for (Student s : students) {
-
-            if (s.rollNumber == rollNumber) {
-
-                System.out.println("\nStudent Found:");
-                s.displayStudent();
-                found = true;
-                break;
-            }
-        }
-
-        if (!found) {
-            System.out.println("Student Not Found.");
-        }
-    }
-
-    // Display All Students
-    void displayAllStudents() {
-
-        if (students.isEmpty()) {
-            System.out.println("No Students Available.");
-        } 
-        else {
-
-            System.out.println("\n===== STUDENT LIST =====");
-
-            for (Student s : students) {
-                s.displayStudent();
-            }
-        }
-    }
-}
-
-// Main Class
 public class StudentManagement {
 
     public static void main(String[] args) {
@@ -176,3 +82,94 @@ public class StudentManagement {
         sc.close();
     }
 }
+
+class Student {
+
+    int rollNumber;
+    String name;
+    String grade;
+
+   
+    Student(int rollNumber, String name, String grade) {
+        this.rollNumber = rollNumber;
+        this.name = name;
+        this.grade = grade;
+    }
+
+   
+    void displayStudent() {
+        System.out.println("Roll Number : " + rollNumber);
+        System.out.println("Name        : " + name);
+        System.out.println("Grade       : " + grade);
+        System.out.println("---------------------------");
+    }
+}
+
+
+class StudentManagementSystem {
+
+    ArrayList<Student> students = new ArrayList<>();
+
+    
+    void addStudent(Student student) {
+        students.add(student);
+        System.out.println("Student Added Successfully.");
+    }
+    void removeStudent(int rollNumber) {
+
+        boolean found = false;
+
+        for (Student s : students) {
+
+            if (s.rollNumber == rollNumber) {
+                students.remove(s);
+                found = true;
+                System.out.println("Student Removed Successfully.");
+                break;
+            }
+        }
+
+        if (!found) {
+            System.out.println("Student Not Found.");
+        }
+    }
+
+    
+    void searchStudent(int rollNumber) {
+
+        boolean found = false;
+
+        for (Student s : students) {
+
+            if (s.rollNumber == rollNumber) {
+
+                System.out.println("\nStudent Found:");
+                s.displayStudent();
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            System.out.println("Student Not Found.");
+        }
+    }
+
+
+    void displayAllStudents() {
+
+        if (students.isEmpty()) {
+            System.out.println("No Students Available.");
+        } 
+        else {
+
+            System.out.println("\n===== STUDENT LIST =====");
+
+            for (Student s : students) {
+                s.displayStudent();
+            }
+        }
+    }
+}
+
+
