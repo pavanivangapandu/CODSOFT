@@ -5,7 +5,7 @@ The projects are developed using basic Java concepts and Object-Oriented Program
 
 ---
 
-##  Intern Details
+## Intern Details
 
 - Name: VANGAPANDU PAVANI
 - Internship Domain: Java Programming
@@ -14,7 +14,7 @@ The projects are developed using basic Java concepts and Object-Oriented Program
 
 ---
 
-#  Tasks Completed
+# Tasks Completed
 
 ## Task 1 - ATM Interface
 
@@ -36,6 +36,9 @@ This program allows users to:
 - Conditional Statements
 - Loops
 
+### Output Video
+https://www.linkedin.com/posts/vangapandu-pavani-b030253a7_codsoft-java-internship-ugcPost-7461320415748214784-ED9s?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGN-OfMBN8qHm0oWeEK3aIDLQwmV43hxF7E
+
 ---
 
 ## Task 2 - Number Game
@@ -55,6 +58,9 @@ A Java number guessing game where the user tries to guess a randomly generated n
 - Loops
 - Conditional Statements
 - Scanner Class
+
+### Output Video
+https://www.linkedin.com/posts/vangapandu-pavani-b030253a7_codsoft-java-internship-ugcPost-7461418697484783618-cIfV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGN-OfMBN8qHm0oWeEK3aIDLQwmV43hxF7E
 
 ---
 
@@ -77,9 +83,12 @@ A console-based Student Management System developed using Java.
 - Loops
 - Scanner Class
 
+### Output Video
+https://www.linkedin.com/posts/vangapandu-pavani-b030253a7_codsoft-java-studentmanagement-ugcPost-7461407844068732930-kHBF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGN-OfMBN8qHm0oWeEK3aIDLQwmV43hxF7E
+
 ---
 
-#  Technologies Used
+# Technologies Used
 
 - Java
 - Object-Oriented Programming (OOP)
@@ -87,7 +96,7 @@ A console-based Student Management System developed using Java.
 
 ---
 
-#  Repository Structure
+# Repository Structure
 
 ```text
 CODSOFT
@@ -100,7 +109,7 @@ CODSOFT
 
 ---
 
-#  Learning Outcome
+# Learning Outcome
 
 Through these tasks, I improved my understanding of:
 - Java Programming
@@ -110,7 +119,7 @@ Through these tasks, I improved my understanding of:
 
 ---
 
-#  Author
+# Author
 
 VANGAPANDU PAVANI
 
